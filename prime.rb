@@ -8,7 +8,7 @@ def prime?(int)
 
 
   (2...int).each do |factor|
-    if num % factor == 0
+    if int % factor == 0
       return false
     end
   end
