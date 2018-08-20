@@ -13,7 +13,7 @@ def prime?(int)
    end 
   else true 
 end 
-prime?(6)
+prime?(2)
 
 
 
