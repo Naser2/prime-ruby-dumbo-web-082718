@@ -10,7 +10,7 @@ def prime?(int)
      return false 
      end 
    end 
-  else true 
+  true 
 end 
 prime?(2)
 
