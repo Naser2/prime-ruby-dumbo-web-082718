@@ -5,7 +5,7 @@ def prime?(int)
   end 
   
   
-  (2..int.size).each do |factor|
+  (2..int).each do |factor|
    
     if int % factor == 0 
      return false 
