@@ -5,41 +5,12 @@ def prime?(int)
   end 
   
   
-  (2..int).each do |factor|
+  (2...int).each do |factor|
     if int % factor == 0 
     return false 
     end 
   end 
-  true 
+  return true 
 end 
-def prime?(num)
-
-  if num < 2
-
-    return false
-
-  end
-
-
-
-  (2...num).each do |factor|
-
-    if num % factor == 0
-
-      return false
-
-    end
-
-  end
-
-
-
-  return true
-
-end
-
-
-
-
-
-
+prime?(num)
+  
